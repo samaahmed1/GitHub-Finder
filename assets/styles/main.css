@@ -41,6 +41,12 @@ ul {
 a {
   text-decoration: none;
 }
+.dark-theme {
+  --bg-color: #000000;
+  --text-btn: #000000;
+  --btn-color: #fd6a02;
+  --text-color: #fd6a02;
+}
 header {
   position: sticky;
   top: 0;
@@ -61,3 +67,4 @@ header .container .logo a {
 header .container .icon img {
   width: 45px;
 }
+
