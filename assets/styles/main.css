@@ -6,6 +6,7 @@
 :root {
   --bg-color: #ffffff;
   --text-btn: #ffffff;
+  --text-search: #000000;
   --btn-color: #fd6a02;
   --text-color: #fd6a02;
 }
@@ -14,8 +15,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  padding: 0 15px;
   margin: auto;
+  padding: 0 15px;
 }
 @media (min-width: 768px) {
   .container {
@@ -44,6 +45,7 @@ a {
 .dark-theme {
   --bg-color: #000000;
   --text-btn: #000000;
+  --text-search: #ffffff;
   --btn-color: #fd6a02;
   --text-color: #fd6a02;
 }
@@ -61,10 +63,42 @@ header .container {
 }
 header .container .logo a {
   font-size: 25px;
-  color: var(--text-color);
   font-weight: bold;
+  color: var(--text-color);
 }
 header .container .icon img {
-  width: 45px;
+  width: 37px;
+  cursor: pointer;
+}
+.search {
+  padding: 50px 0;
+}
+.search .container {
+  display: flex;
+  gap: 20px;
+}
+.search .container .input-search {
+  flex-grow: 9;
+  padding: 12px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 3px 13px;
+  color: var(--text-search);
+  background-color: var(--bg-color);
+  border: 1px solid var(--btn-color);
+}
+.search .container .button-search {
+  border: none;
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  color: var(--text-btn);
+  border-radius: 13px 3px;
+  transition: all 0.2s ease-in-out;
+  background-color: var(--btn-color);
+}
+.search .container .button-search:active {
+  background-color: #da6003;
 }
 
