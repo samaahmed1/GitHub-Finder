@@ -116,7 +116,8 @@ header .container .icon img {
   flex-direction: column;
 }
 .user-data .avatar img {
-  border-radius: 20px 80px;
+  width: 300px;
+  border-radius: 2px 25px;
 }
 .user-data .avatar h1 {
   font-size: 27px;
