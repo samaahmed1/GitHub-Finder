@@ -108,4 +108,30 @@ header .container .icon img {
   text-align: center;
   color: var(--text-color);
 }
+.user-data .avatar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-data .avatar img {
+  border-radius: 20px 80px;
+}
+.user-data .avatar h1 {
+  font-size: 27px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.user-data .avatar a {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.user-data .avatar a:hover {
+  border-bottom: 2px solid var(--text-color);
+}
+
+
+
 

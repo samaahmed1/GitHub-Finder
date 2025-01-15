@@ -13,5 +13,17 @@ function getUserData() {
     document.getElementById("user-data").innerHTML = `
     <span class="message">Please Enter The Username</span>
     `;
+  } else {
+    fetch(`https://api.github.com/users/${document.getElementById("input-search").value}`)
+      .then((response) => response.json())
+      .then((data) => {
+        document.getElementById("user-data").innerHTML = `
+        <div class= "avatar">
+        <img src= "${data.avatar_url}" alt="data.name" />
+        <h1>${data.name}</h1>
+        <a href= "${data.html_url}" target="_blank">GitHub</a>
+        </div>
+        `;
+      });
   }
 }
