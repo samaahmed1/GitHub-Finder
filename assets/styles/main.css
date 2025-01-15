@@ -101,4 +101,11 @@ header .container .icon img {
 .search .container .button-search:active {
   background-color: #da6003;
 }
+.user-data .message {
+  display: block;
+  font-size: 22px;
+  font-weight: 550;
+  text-align: center;
+  color: var(--text-color);
+}
 

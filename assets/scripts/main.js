@@ -7,3 +7,11 @@ document.getElementById("toggle-theme").onclick = () => {
     document.getElementById("toggle-theme").src = "assets/icons/sun.webp";
   }
 };
+document.getElementById("button-search").onclick = getUserData;
+function getUserData() {
+  if (document.getElementById("input-search").value === "") {
+    document.getElementById("user-data").innerHTML = `
+    <span class="message">Please Enter The Username</span>
+    `;
+  }
+}
