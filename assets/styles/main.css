@@ -36,9 +36,6 @@ body {
 img {
   max-width: 100%;
 }
-/* ul {
-  list-style: none;
-} */
 a {
   text-decoration: none;
 }
@@ -94,7 +91,7 @@ header .container .icon img {
   font-size: 17px;
   cursor: pointer;
   color: var(--text-btn);
-  border-radius: 13px 3px;
+  border-radius: 3px 13px;
   transition: all 0.2s ease-in-out;
   background-color: var(--btn-color);
 }
