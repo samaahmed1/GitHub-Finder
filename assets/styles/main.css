@@ -36,9 +36,9 @@ body {
 img {
   max-width: 100%;
 }
-ul {
+/* ul {
   list-style: none;
-}
+} */
 a {
   text-decoration: none;
 }
@@ -98,7 +98,8 @@ header .container .icon img {
   transition: all 0.2s ease-in-out;
   background-color: var(--btn-color);
 }
-.search .container .button-search:active {
+.search .container .button-search:active
+,.user-data .user-repos li a:active {
   background-color: #da6003;
 }
 .user-data .message {
@@ -109,11 +110,11 @@ header .container .icon img {
   color: var(--text-color);
 }
 .user-data .avatar {
-  display: flex;
   gap: 10px;
+  display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 .user-data .avatar img {
   width: 300px;
@@ -132,7 +133,20 @@ header .container .icon img {
 .user-data .avatar a:hover {
   border-bottom: 2px solid var(--text-color);
 }
-
-
-
-
+.user-data .user-repos {
+  gap: 40px;
+  display: grid;
+  padding: 50px 35px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.user-data .user-repos li {
+  color: var(--text-color);
+}
+.user-data .user-repos li a {
+  padding: 12px;
+  margin: 0 5px;
+  display: block;
+  color: var(--text-btn);
+  border-radius: 3px 13px;
+  background-color: var(--btn-color);
+}
