@@ -6,7 +6,8 @@
   "display": "standalone",
   "orientation": "Any",
   "scope": "/GitHub-Finder",
-  "start_url": "/GitHub-Finder/index.html",
+  "start_url": "https://samaahmed1.github.io/GitHub-Finder/",
+  "id": "/GitHub-Finder/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
