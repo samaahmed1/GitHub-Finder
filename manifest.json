@@ -5,9 +5,9 @@
   "background_color": "#fd6a02",
   "display": "standalone",
   "orientation": "Any",
-  "scope": "/GitHub-Finder",
+  "scope": "https://samaahmed1.github.io/GitHub-Finder/",
   "start_url": "https://samaahmed1.github.io/GitHub-Finder/",
-  "id": "/GitHub-Finder/",
+  "id": "https://samaahmed1.github.io/GitHub-Finder/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
